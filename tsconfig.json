@@ -8,6 +8,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "esModuleInterop": true,
+    "jsx": "react",
+    "jsxFactory": "htmx",
     "forceConsistentCasingInFileNames": true,
 
     "declaration": true,
