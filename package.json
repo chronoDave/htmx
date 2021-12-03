@@ -22,12 +22,9 @@
     "test": "rollup -c --noEmit && tape test/**/*.spec.js"
   },
   "devDependencies": {
-    "@types/parse5": "^6.0.2",
-    "@types/parse5-html-rewriting-stream": "^5.1.2",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "esbuild": "^0.13.14",
-    "esbuild-windows-64": "^0.13.14",
     "eslint": "^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^16.0.0",
@@ -35,17 +32,9 @@
     "rollup-plugin-dts": "^4.0.1",
     "rollup-plugin-esbuild": "^4.7.2",
     "tape": "^5.3.2",
-    "ts-node": "^10.4.0",
     "typescript": "^4.5.2"
   },
   "dependencies": {
-    "acorn": "^8.6.0",
-    "acorn-jsx": "^5.3.2",
-    "acorn-walk": "^8.2.0",
-    "htmlparser2": "^7.2.0",
-    "node-html-parser": "^5.1.0",
-    "parse5": "^6.0.1",
-    "parse5-html-rewriting-stream": "^6.0.1",
-    "react-dom": "^17.0.2"
+    "node-html-parser": "^5.1.0"
   }
 }

@@ -1,7 +1,0 @@
-// Renderer
-htmx()
-
-// Partials
-hydrate('_footer', {
-  logos: () => ['a', 'b', 'c'].map(src => hydrate('_image', { src }))
-})
