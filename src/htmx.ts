@@ -13,6 +13,8 @@ type IntrinsicElementMap = {
   [K in keyof SVGElementTagNameMap]: ElementMap<SVGElementTagNameMap[K]>
 };
 
+type Props = Record<string, string> | null;
+
 declare global {
   namespace Htmx {
     type Element = Node;
@@ -47,10 +49,12 @@ declare global {
 }
 
 const htmx = (
-  type: string,
-  props: Record<string, string> | null,
+  type: string | ((props: Props) => JSX.Element),
+  props: Props,
   ...children: string[]
 ) => {
+  if (typeof type === 'function') return type(props);
+
   const keyAttributes: { id?: string, class?: string } = {
     id: props?.id,
     class: props?.class

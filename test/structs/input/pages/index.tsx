@@ -1,5 +1,5 @@
 /* eslint-disable import/extensions */
-import htmx from '../../src';
+import htmx from '../../../../src/htmx';
 import Page from '../modules/page';
 
 export default () => (

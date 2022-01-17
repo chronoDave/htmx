@@ -24,6 +24,7 @@ module.exports = {
     'arrow-body-style': 'warn',
     'arrow-parens': ['error', 'as-needed'],
     'no-nested-ternary': 'off',
+    'implicit-arrow-linebreak': 'off',
     'max-len': 'off',
     'no-underscore-dangle': 'off',
     'no-param-reassign': 'warn',

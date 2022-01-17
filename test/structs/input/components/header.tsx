@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import htmx from '../../src';
+import htmx from '../../../../src/htmx';
 
 const Header = () => (
   <header class="Navigation">

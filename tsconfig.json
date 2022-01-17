@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["esnext", "dom"],
-    
+    "moduleResolution": "node",
     "strict": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
@@ -17,7 +17,6 @@
   },
   "include": [
     "src",
-    "_poc",
     "test",
     ".eslintrc.js",
     "rollup.config.js"
