@@ -25,8 +25,10 @@
     "build": "rollup -c",
     "test": "rollup -c --dev && node test/bin.spec.js"
   },
+  "peerDependencies": {
+    "@chronocide/htmx": "^1.0.2"
+  },
   "devDependencies": {
-    "@chronocide/htmx": "^1.0.1",
     "@types/node": "^17.0.9",
     "@types/require-from-string": "^1.2.1",
     "@types/yargs-parser": "^20.2.1",
