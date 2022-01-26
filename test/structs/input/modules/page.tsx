@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 /* eslint-disable @typescript-eslint/naming-convention */
-import htmx from '../../../../src/htmx';
+import htmx from '@chronocide/htmx';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import Meta, { MetaProps } from '../components/meta';

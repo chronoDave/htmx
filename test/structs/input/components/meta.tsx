@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import htmx from '../../../../src/htmx';
+import htmx from '@chronocide/htmx';
 
 export type MetaProps = {
   title: string

@@ -1,8 +1,8 @@
-import path from 'path';
-import fs from 'fs';
-import assert from 'assert';
+const path = require('path');
+const fs = require('fs');
+const assert = require('assert');
 
-import { toHtml } from '../src/bin/cli';
+const { toHtml } = require('../dist/cli');
 
 assert.strictEqual(
   fs.readFileSync(path.resolve(__dirname, 'structs', 'output.html'), 'utf-8'),
