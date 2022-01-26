@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
     "lib": ["esnext", "dom"],
     "strict": true,
     "noImplicitAny": true,
@@ -11,7 +11,6 @@
     "jsx": "react",
     "jsxFactory": "htmx",
     "forceConsistentCasingInFileNames": true,
-
     "declaration": true,
     "outDir": "./test/build"
   },

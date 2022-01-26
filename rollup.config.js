@@ -39,7 +39,9 @@ const config = {
       'fs',
       'path',
       'yargs-parser',
-      'node-html-parser'
+      'node-html-parser',
+      'esbuild',
+      'require-from-string'
     ],
     output: {
       file: 'dist/bin.js',
