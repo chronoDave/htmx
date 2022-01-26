@@ -1,6 +1,6 @@
 {
   "name": "@chronocide/htmx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple static HTML generator",
   "main": "dist/htmx.cjs",
   "module": "dist/htmx.mjs",
